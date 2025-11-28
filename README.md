@@ -1,7 +1,12 @@
 # Microservice app for demo
 
-## Build image.
+## Images
 
+```
+muarwi/demo-microservice-nginx
+muarwi/demo-microservice-app
+muarwi/demo-microservice-db
+```
 
 ## Docker Compose
 ```bash
