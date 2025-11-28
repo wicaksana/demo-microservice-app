@@ -1,0 +1,63 @@
+services:
+  # Nginx
+  nginx:
+    # Build the image using the Dockerfile in the './nginx' directory
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile.nginx
+    restart: always
+    ports:
+      # Expose Nginx port 80 to the host machine on port 8080
+      - "8080:80"
+    # Wait for the webapp service to be up before starting Nginx
+    depends_on:
+      - webapp
+    networks:
+      - app-network
+  webapp:
+    # Build the image using the Dockerfile in the './app' directory
+    build:
+      context: ./app
+      dockerfile: Dockerfile.app
+    restart: always
+    environment:
+      # Pass database connection details to the Flask app
+      POSTGRES_HOST: postgres # Use the service name as the hostname
+      POSTGRES_DB: app_db
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    ports:
+      # The app is available internally on 5000, not directly exposed to the host
+      - "5000"
+    # Wait for the database to be running before starting the web app
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+  postgres:
+    build:
+      context: ./postgres
+      dockerfile: Dockerfile.postgres
+    restart: always
+    environment:
+      # Database access credentials - use strong passwords in production!
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: app_db
+    ports:
+      # Expose port 5432 for external tools (optional, remove for better security)
+      - "5432:5432"
+    volumes:
+      # Persist the database data outside the container (postgres 18+)
+      - ./postgres_data:/var/lib/postgresql
+    networks:
+      - app-network
+
+# Define volumes for persistent data storage
+volumes:
+  postgres_data:
+
+# Define a network for the services to communicate securely
+networks:
+  app-network:
+    driver: bridge
