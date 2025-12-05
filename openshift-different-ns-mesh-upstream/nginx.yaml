@@ -1,0 +1,111 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+  namespace: mesh-fe
+  labels:
+    app: nginx
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: nginx
+---
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceDefaults
+metadata:
+  name: nginx
+  namespace: mesh-fe
+spec:
+  protocol: "http"
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: nginx
+  namespace: mesh-fe
+automountServiceAccountToken: true
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  namespace: mesh-fe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: nginx
+      app: nginx
+  template:
+    metadata:
+      labels:
+        service: nginx
+        app: nginx
+      annotations:
+        consul.hashicorp.com/connect-inject: "true"
+        consul.hashicorp.com/transparent-proxy: "true"
+    spec:
+      serviceAccountName: nginx
+      containers:
+        - name: nginx
+          image: nginxinc/nginx-unprivileged:1.29.2-alpine-otel
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - name: nginx-config
+              mountPath: /etc/nginx
+      volumes:
+        - name: nginx-config
+          configMap:
+            name: nginx-config
+            items:
+              - key: nginx.conf
+                path: nginx.conf
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+  namespace: mesh-fe
+data:
+  nginx.conf: |
+    worker_processes auto;
+    # necessary to comply with restricted-v2 SCC
+    pid /tmp/nginx.pid;
+
+    events {
+    worker_connections 1024;
+    }
+
+    http {
+    default_type  application/octet-stream;
+
+    sendfile        on;
+    keepalive_timeout 65;
+
+        server {
+            # Nginx listens on port 80 inside its container
+            listen 8080;
+
+            # Serve from the root path
+            location / {
+                # Proxy requests to the web app service. 
+                # The name 'webapp' resolves to the webapp container's IP within the Docker network.
+                proxy_pass http://demo-app.mesh-be.svc.cluster.local:5000;
+
+                # Recommended proxy headers
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+
+                # Handle 502 Bad Gateway while the webapp service is starting up
+                proxy_next_upstream error timeout invalid_header http_500 http_503 http_504;
+            }
+        }
+    }
+---

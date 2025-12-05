@@ -1,0 +1,13 @@
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceIntentions
+metadata:
+  name: demo-db
+  namespace: mesh-db
+# Allow traffic from app to postgres
+spec:
+  destination:
+    name: demo-db
+    namespace: mesh-db
+  sources:
+    - name: demo-app
+      action: allow
