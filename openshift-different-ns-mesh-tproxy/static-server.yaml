@@ -34,6 +34,7 @@ spec:
       annotations:
         consul.hashicorp.com/connect-inject: "true"
         consul.hashicorp.com/transparent-proxy: "true"
+        k8s.vl.cni.cncf.io/networks: '[{"name":"consul-cni"}]'
       labels:
         app: static-server
     spec:
