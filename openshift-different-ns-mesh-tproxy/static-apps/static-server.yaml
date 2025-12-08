@@ -1,0 +1,50 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: static-server
+  namespace: mesh-be-tproxy
+automountServiceAccountToken: true
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: static-server
+  namespace: mesh-be-tproxy
+spec:
+  selector:
+    app: static-server
+  ports:
+    - port: 1234
+      targetPort: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: static-server
+  name: static-server
+  namespace: mesh-be-tproxy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: static-server
+  template:
+    metadata:
+      annotations:
+        consul.hashicorp.com/connect-inject: "true"
+        consul.hashicorp.com/transparent-proxy: "true"
+        k8s.v1.cni.cncf.io/networks: '[{"name":"consul-cni"}]'
+      labels:
+        app: static-server
+    spec:
+      serviceAccountName: static-server
+      containers:
+        - name: static-server
+          image: hashicorp/http-echo:latest
+          args:
+            - -text="hello world from dc1"
+            - -listen=:8080
+          ports:
+            - containerPort: 8080
+              name: http

@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: demo-app
-  namespace: mesh-be-tproxy
+  namespace: mesh-be-tproxy2
   labels:
     app: demo-app
 spec:
@@ -19,7 +19,7 @@ apiVersion: consul.hashicorp.com/v1alpha1
 kind: ServiceDefaults
 metadata:
   name: demo-app
-  namespace: mesh-be-tproxy
+  namespace: mesh-be-tproxy2
 spec:
   protocol: "http"
 ---
@@ -27,14 +27,14 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: demo-app
-  namespace: mesh-be-tproxy
+  namespace: mesh-be-tproxy2
 automountServiceAccountToken: true
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: demo-app
-  namespace: mesh-be-tproxy
+  namespace: mesh-be-tproxy2
   labels:
     app: demo-app
 spec:
@@ -67,4 +67,4 @@ spec:
               value: password
             - name: POSTGRES_HOST
               # value: demo-db.service.mesh-db-tproxy.ns.consul
-              value: demo-db.virtual.mesh-db-tproxy.ns.consul
+              value: demo-db.virtual.mesh-db-tproxy2.ns.consul

@@ -1,0 +1,14 @@
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceIntentions
+metadata:
+  name: static-server
+  namespace: mesh-be-tproxy
+# Allow traffic from app to postgres
+spec:
+  destination:
+    name: static-server
+    namespace: mesh-be-tproxy
+  sources:
+    - name: static-client
+      namespace: mesh-fe-tproxy
+      action: allow

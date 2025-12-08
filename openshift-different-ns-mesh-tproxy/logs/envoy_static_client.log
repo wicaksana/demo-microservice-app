@@ -1,0 +1,596 @@
+2025-12-03T14:23:40.057Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:23:41.261Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:23:46.262Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:23:47.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"177"] new tcp proxy session
+2025-12-03T14:23:47.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"177"] Creating connection to cluster local_app
+2025-12-03T14:23:47.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:23:47.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:23:47.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"178"] connecting to 127.0.0.1:4321
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"178"] connection in progress
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"177"] new connection from 10.131.0.2:35382
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"177"] closing socket: 0
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"178"] closing data_to_write=0 type=1
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"178"] closing socket: 1
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"178"] client disconnected, failure reason: 
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:23:47.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"177"] adding to cleanup list
+2025-12-03T14:23:50.057Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:23:51.264Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:23:56.264Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"179"] new tcp proxy session
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"179"] Creating connection to cluster local_app
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"180"] connecting to 127.0.0.1:4321
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"180"] connection in progress
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"179"] new connection from 10.131.0.2:39172
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"179"] closing socket: 0
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"180"] closing data_to_write=0 type=1
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"180"] closing socket: 1
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"180"] client disconnected, failure reason: 
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:23:57.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"179"] adding to cleanup list
+2025-12-03T14:24:00.058Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:24:01.266Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:06.267Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:07.280Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"181"] new tcp proxy session
+2025-12-03T14:24:07.280Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"181"] Creating connection to cluster local_app
+2025-12-03T14:24:07.280Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:24:07.280Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:24:07.280Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"182"] connecting to 127.0.0.1:4321
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"182"] connection in progress
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"181"] new connection from 10.131.0.2:39322
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"181"] closing socket: 0
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"182"] closing data_to_write=0 type=1
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"182"] closing socket: 1
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"182"] client disconnected, failure reason: 
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:07.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"181"] adding to cleanup list
+2025-12-03T14:24:10.059Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:24:11.269Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:16.271Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"183"] new tcp proxy session
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"183"] Creating connection to cluster local_app
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"184"] connecting to 127.0.0.1:4321
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"184"] connection in progress
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"183"] new connection from 10.131.0.2:42112
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"183"] closing socket: 0
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"184"] closing data_to_write=0 type=1
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"184"] closing socket: 1
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"184"] client disconnected, failure reason: 
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:17.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"183"] adding to cleanup list
+2025-12-03T14:24:20.060Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:24:21.271Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:26.272Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"185"] new tcp proxy session
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"185"] Creating connection to cluster local_app
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"186"] connecting to 127.0.0.1:4321
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"186"] connection in progress
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"185"] new connection from 10.131.0.2:46718
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"185"] closing socket: 0
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"186"] closing data_to_write=0 type=1
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"186"] closing socket: 1
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"186"] client disconnected, failure reason: 
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:27.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"185"] adding to cleanup list
+2025-12-03T14:24:30.061Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:24:31.274Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:36.276Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"187"] new tcp proxy session
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"187"] Creating connection to cluster local_app
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"188"] connecting to 127.0.0.1:4321
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"188"] connection in progress
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"187"] new connection from 10.131.0.2:45612
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"187"] closing socket: 0
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"188"] closing data_to_write=0 type=1
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"188"] closing socket: 1
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"188"] client disconnected, failure reason: 
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"187"] adding to cleanup list
+2025-12-03T14:24:40.062Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:24:41.277Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:46.278Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"189"] new tcp proxy session
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"189"] Creating connection to cluster local_app
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"190"] connecting to 127.0.0.1:4321
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"190"] connection in progress
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"189"] new connection from 10.131.0.2:38878
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"189"] closing socket: 0
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"190"] closing data_to_write=0 type=1
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"190"] closing socket: 1
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"190"] client disconnected, failure reason: 
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:47.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"189"] adding to cleanup list
+2025-12-03T14:24:50.062Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:24:51.279Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:56.281Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"191"] new tcp proxy session
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"191"] Creating connection to cluster local_app
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"192"] connecting to 127.0.0.1:4321
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"192"] connection in progress
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"191"] new connection from 10.131.0.2:51322
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"191"] closing socket: 0
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"192"] closing data_to_write=0 type=1
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"192"] closing socket: 1
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"192"] client disconnected, failure reason: 
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:24:57.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"191"] adding to cleanup list
+2025-12-03T14:25:00.063Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:25:01.282Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:06.283Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"193"] new tcp proxy session
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"193"] Creating connection to cluster local_app
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"194"] connecting to 127.0.0.1:4321
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"194"] connection in progress
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"193"] new connection from 10.131.0.2:35514
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"193"] closing socket: 0
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"194"] closing data_to_write=0 type=1
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"194"] closing socket: 1
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"194"] client disconnected, failure reason: 
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:07.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"193"] adding to cleanup list
+2025-12-03T14:25:10.063Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:25:11.285Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:16.286Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"195"] new tcp proxy session
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"195"] Creating connection to cluster local_app
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"196"] connecting to 127.0.0.1:4321
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"196"] connection in progress
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"195"] new connection from 10.131.0.2:60128
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"195"] closing socket: 0
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"196"] closing data_to_write=0 type=1
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"196"] closing socket: 1
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"196"] client disconnected, failure reason: 
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:17.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"195"] adding to cleanup list
+2025-12-03T14:25:20.064Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:25:21.287Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:26.289Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"197"] new tcp proxy session
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"197"] Creating connection to cluster local_app
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"198"] connecting to 127.0.0.1:4321
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"198"] connection in progress
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"197"] new connection from 10.131.0.2:55730
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"197"] closing socket: 0
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"198"] closing data_to_write=0 type=1
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"198"] closing socket: 1
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"198"] client disconnected, failure reason: 
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:27.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"197"] adding to cleanup list
+2025-12-03T14:25:29.546Z+00:00 [debug] envoy.conn_handler(16) [Tags: "ConnectionId":"199"] new connection from 127.0.0.1:48688
+2025-12-03T14:25:29.813Z+00:00 [debug] envoy.http(16) [Tags: "ConnectionId":"199"] new stream
+2025-12-03T14:25:29.813Z+00:00 [debug] envoy.http(16) [Tags: "ConnectionId":"199","StreamId":"1836570658512347283"] request headers complete (end_stream=true):
+':authority', 'localhost:19000'
+':path', '/logging?level=debug'
+':method', 'POST'
+'user-agent', 'curl/8.7.1'
+'accept', '*/*'
+
+2025-12-03T14:25:29.813Z+00:00 [debug] envoy.http(16) [Tags: "ConnectionId":"199","StreamId":"1836570658512347283"] request end stream timestamp recorded
+2025-12-03T14:25:29.813Z+00:00 [debug] envoy.connection(16) [Tags: "ConnectionId":"199"] current connecting state: false
+2025-12-03T14:25:29.813Z+00:00 [debug] envoy.admin(16) [Tags: "ConnectionId":"199","StreamId":"1836570658512347283"] request complete: path: /logging?level=debug
+2025-12-03T14:25:29.813Z+00:00 [info] envoy.misc(16) change all log levels: level='debug'
+2025-12-03T14:25:29.813Z+00:00 [debug] envoy.http(16) [Tags: "ConnectionId":"199","StreamId":"1836570658512347283"] encoding headers via codec (end_stream=false):
+':status', '200'
+'content-type', 'text/plain; charset=UTF-8'
+'cache-control', 'no-cache, max-age=0'
+'x-content-type-options', 'nosniff'
+'date', 'Wed, 03 Dec 2025 14:25:29 GMT'
+'server', 'envoy'
+
+2025-12-03T14:25:29.813Z+00:00 [debug] envoy.misc(16) nextChunk: response.length=1190 more_data=false end_stream=true
+2025-12-03T14:25:29.813Z+00:00 [debug] envoy.http(16) [Tags: "ConnectionId":"199","StreamId":"1836570658512347283"] Codec completed encoding stream.
+2025-12-03T14:25:30.065Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:25:31.076Z+00:00 [debug] envoy.connection(16) [Tags: "ConnectionId":"199"] remote close
+2025-12-03T14:25:31.076Z+00:00 [debug] envoy.connection(16) [Tags: "ConnectionId":"199"] closing socket: 0
+2025-12-03T14:25:31.076Z+00:00 [debug] envoy.conn_handler(16) [Tags: "ConnectionId":"199"] adding to cleanup list
+2025-12-03T14:25:31.289Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:36.291Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:37.280Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"200"] new tcp proxy session
+2025-12-03T14:25:37.280Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"200"] Creating connection to cluster local_app
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"201"] connecting to 127.0.0.1:4321
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"201"] connection in progress
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"200"] new connection from 10.131.0.2:54414
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"200"] closing socket: 0
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"201"] closing data_to_write=0 type=1
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"201"] closing socket: 1
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"201"] client disconnected, failure reason: 
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"200"] adding to cleanup list
+2025-12-03T14:25:40.067Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:25:41.293Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:46.295Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"202"] new tcp proxy session
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"202"] Creating connection to cluster local_app
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"203"] connecting to 127.0.0.1:4321
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"203"] connection in progress
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"202"] new connection from 10.131.0.2:39210
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"202"] closing socket: 0
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"203"] closing data_to_write=0 type=1
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"203"] closing socket: 1
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"203"] client disconnected, failure reason: 
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:47.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"202"] adding to cleanup list
+2025-12-03T14:25:50.067Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:25:51.295Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:56.297Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"204"] new tcp proxy session
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"204"] Creating connection to cluster local_app
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"205"] connecting to 127.0.0.1:4321
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"205"] connection in progress
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"204"] new connection from 10.131.0.2:55014
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"204"] closing socket: 0
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"205"] closing data_to_write=0 type=1
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"205"] closing socket: 1
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"205"] client disconnected, failure reason: 
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:25:57.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"204"] adding to cleanup list
+2025-12-03T14:26:00.068Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:26:01.299Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:06.301Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:07.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"206"] new tcp proxy session
+2025-12-03T14:26:07.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"206"] Creating connection to cluster local_app
+2025-12-03T14:26:07.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:26:07.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:26:07.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:26:07.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"207"] connecting to 127.0.0.1:4321
+2025-12-03T14:26:07.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"207"] connection in progress
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"206"] new connection from 10.131.0.2:51876
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"206"] closing socket: 0
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"207"] closing data_to_write=0 type=1
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"207"] closing socket: 1
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"207"] client disconnected, failure reason: 
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:07.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"206"] adding to cleanup list
+2025-12-03T14:26:10.069Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:26:11.303Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:16.304Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:17.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"208"] new tcp proxy session
+2025-12-03T14:26:17.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"208"] Creating connection to cluster local_app
+2025-12-03T14:26:17.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:26:17.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:26:17.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:26:17.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"209"] connecting to 127.0.0.1:4321
+2025-12-03T14:26:17.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"209"] connection in progress
+2025-12-03T14:26:17.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"208"] new connection from 10.131.0.2:49058
+2025-12-03T14:26:17.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"208"] closing socket: 0
+2025-12-03T14:26:17.282Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:26:17.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"209"] closing data_to_write=0 type=1
+2025-12-03T14:26:17.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"209"] closing socket: 1
+2025-12-03T14:26:17.282Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"209"] client disconnected, failure reason: 
+2025-12-03T14:26:17.282Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:17.282Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:17.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"208"] adding to cleanup list
+2025-12-03T14:26:20.069Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:26:21.306Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:26.308Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"210"] new tcp proxy session
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"210"] Creating connection to cluster local_app
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"211"] connecting to 127.0.0.1:4321
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"211"] connection in progress
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"210"] new connection from 10.131.0.2:49174
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"210"] closing socket: 0
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"211"] closing data_to_write=0 type=1
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"211"] closing socket: 1
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"211"] client disconnected, failure reason: 
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:27.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"210"] adding to cleanup list
+2025-12-03T14:26:30.070Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:26:31.308Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:36.310Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"212"] new tcp proxy session
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"212"] Creating connection to cluster local_app
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"213"] connecting to 127.0.0.1:4321
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"213"] connection in progress
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"212"] new connection from 10.131.0.2:47774
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"212"] closing socket: 0
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"213"] closing data_to_write=0 type=1
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"213"] closing socket: 1
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"213"] client disconnected, failure reason: 
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"212"] adding to cleanup list
+2025-12-03T14:26:40.071Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:26:41.311Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:46.314Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"214"] new tcp proxy session
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"214"] Creating connection to cluster local_app
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"215"] connecting to 127.0.0.1:4321
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"215"] connection in progress
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"214"] new connection from 10.131.0.2:45658
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"214"] closing socket: 0
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"215"] closing data_to_write=0 type=1
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"215"] closing socket: 1
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"215"] client disconnected, failure reason: 
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:47.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"214"] adding to cleanup list
+2025-12-03T14:26:50.071Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:26:51.315Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:56.314Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:26:57.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"216"] new tcp proxy session
+2025-12-03T14:26:57.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"216"] Creating connection to cluster local_app
+2025-12-03T14:26:57.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:26:57.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:26:57.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:26:57.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"217"] connecting to 127.0.0.1:4321
+2025-12-03T14:26:57.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"217"] connection in progress
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"216"] new connection from 10.131.0.2:52808
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"216"] closing socket: 0
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"217"] closing data_to_write=0 type=1
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"217"] closing socket: 1
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"217"] client disconnected, failure reason: 
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:26:57.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"216"] adding to cleanup list
+2025-12-03T14:27:00.072Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:27:01.316Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:06.318Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:07.280Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"218"] new tcp proxy session
+2025-12-03T14:27:07.280Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"218"] Creating connection to cluster local_app
+2025-12-03T14:27:07.280Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:27:07.280Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:27:07.280Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:27:07.280Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"219"] connecting to 127.0.0.1:4321
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"219"] connection in progress
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"218"] new connection from 10.131.0.2:51240
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"218"] closing socket: 0
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"219"] closing data_to_write=0 type=1
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"219"] closing socket: 1
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"219"] client disconnected, failure reason: 
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:07.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"218"] adding to cleanup list
+2025-12-03T14:27:10.073Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:27:11.319Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:16.321Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"220"] new tcp proxy session
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"220"] Creating connection to cluster local_app
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"221"] connecting to 127.0.0.1:4321
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"221"] connection in progress
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"220"] new connection from 10.131.0.2:49900
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"220"] closing socket: 0
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"221"] closing data_to_write=0 type=1
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"221"] closing socket: 1
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"221"] client disconnected, failure reason: 
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:17.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"220"] adding to cleanup list
+2025-12-03T14:27:20.073Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:27:21.321Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:26.323Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"222"] new tcp proxy session
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"222"] Creating connection to cluster local_app
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"223"] connecting to 127.0.0.1:4321
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"223"] connection in progress
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"222"] new connection from 10.131.0.2:42746
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"222"] closing socket: 0
+2025-12-03T14:27:27.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:27:27.282Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"223"] closing data_to_write=0 type=1
+2025-12-03T14:27:27.282Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"223"] closing socket: 1
+2025-12-03T14:27:27.282Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"223"] client disconnected, failure reason: 
+2025-12-03T14:27:27.282Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:27.282Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:27.282Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"222"] adding to cleanup list
+2025-12-03T14:27:30.073Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:27:31.324Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:36.325Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:37.280Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"224"] new tcp proxy session
+2025-12-03T14:27:37.280Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"224"] Creating connection to cluster local_app
+2025-12-03T14:27:37.280Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:27:37.280Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:27:37.280Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"225"] connecting to 127.0.0.1:4321
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"225"] connection in progress
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"224"] new connection from 10.131.0.2:47830
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"224"] closing socket: 0
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"225"] closing data_to_write=0 type=1
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"225"] closing socket: 1
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"225"] client disconnected, failure reason: 
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"224"] adding to cleanup list
+2025-12-03T14:27:40.074Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:27:41.325Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:46.327Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:47.280Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"226"] new tcp proxy session
+2025-12-03T14:27:47.280Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"226"] Creating connection to cluster local_app
+2025-12-03T14:27:47.280Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:27:47.280Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:27:47.280Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"227"] connecting to 127.0.0.1:4321
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"227"] connection in progress
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"226"] new connection from 10.131.0.2:50974
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"226"] closing socket: 0
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"227"] closing data_to_write=0 type=1
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"227"] closing socket: 1
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"227"] client disconnected, failure reason: 
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:47.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"226"] adding to cleanup list
+2025-12-03T14:27:50.074Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:27:51.327Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:56.329Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:27:57.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"228"] new tcp proxy session
+2025-12-03T14:27:57.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"228"] Creating connection to cluster local_app
+2025-12-03T14:27:57.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:27:57.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:27:57.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:27:57.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"229"] connecting to 127.0.0.1:4321
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"229"] connection in progress
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"228"] new connection from 10.131.0.2:60404
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"228"] closing socket: 0
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"229"] closing data_to_write=0 type=1
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"229"] closing socket: 1
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"229"] client disconnected, failure reason: 
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:27:57.282Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"228"] adding to cleanup list
+2025-12-03T14:28:00.076Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:28:01.330Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:28:06.331Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:28:07.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"230"] new tcp proxy session
+2025-12-03T14:28:07.281Z+00:00 [debug] envoy.filter(26) [Tags: "ConnectionId":"230"] Creating connection to cluster local_app
+2025-12-03T14:28:07.281Z+00:00 [debug] envoy.misc(26) Allocating TCP conn pool
+2025-12-03T14:28:07.281Z+00:00 [debug] envoy.pool(26) trying to create new connection
+2025-12-03T14:28:07.281Z+00:00 [debug] envoy.pool(26) creating a new connection (connecting=0)
+2025-12-03T14:28:07.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"231"] connecting to 127.0.0.1:4321
+2025-12-03T14:28:07.281Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"231"] connection in progress
+2025-12-03T14:28:07.281Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"230"] new connection from 10.131.0.2:53128
+2025-12-03T14:28:07.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"230"] closing socket: 0
+2025-12-03T14:28:07.282Z+00:00 [debug] envoy.pool(26) cancelling pending stream
+2025-12-03T14:28:07.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"231"] closing data_to_write=0 type=1
+2025-12-03T14:28:07.282Z+00:00 [debug] envoy.connection(26) [Tags: "ConnectionId":"231"] closing socket: 1
+2025-12-03T14:28:07.282Z+00:00 [debug] envoy.pool(26) [Tags: "ConnectionId":"231"] client disconnected, failure reason: 
+2025-12-03T14:28:07.282Z+00:00 [debug] envoy.pool(26) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:28:07.282Z+00:00 [debug] envoy.pool(26) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:28:07.282Z+00:00 [debug] envoy.conn_handler(26) [Tags: "ConnectionId":"230"] adding to cleanup list
+2025-12-03T14:28:10.076Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:28:11.333Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:28:16.335Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"232"] new tcp proxy session
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"232"] Creating connection to cluster local_app
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"233"] connecting to 127.0.0.1:4321
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"233"] connection in progress
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"232"] new connection from 10.131.0.2:46254
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"232"] closing socket: 0
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"233"] closing data_to_write=0 type=1
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"233"] closing socket: 1
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"233"] client disconnected, failure reason: 
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:28:17.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"232"] adding to cleanup list
+2025-12-03T14:28:20.078Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:28:21.336Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:28:26.336Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"234"] new tcp proxy session
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"234"] Creating connection to cluster local_app
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"235"] connecting to 127.0.0.1:4321
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"235"] connection in progress
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"234"] new connection from 10.131.0.2:51032
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"234"] closing socket: 0
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"235"] closing data_to_write=0 type=1
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"235"] closing socket: 1
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"235"] client disconnected, failure reason: 
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:28:27.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"234"] adding to cleanup list
+2025-12-03T14:28:30.079Z [DEBUG] consul-dataplane.dns-proxy.udp: timeout waiting for read: error="read udp 127.0.0.1:8600: i/o timeout"
+2025-12-03T14:28:31.337Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:28:36.339Z+00:00 [debug] envoy.main(16) flushing stats
+2025-12-03T14:28:37.280Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"236"] new tcp proxy session
+2025-12-03T14:28:37.280Z+00:00 [debug] envoy.filter(25) [Tags: "ConnectionId":"236"] Creating connection to cluster local_app
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.misc(25) Allocating TCP conn pool
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.pool(25) trying to create new connection
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.pool(25) creating a new connection (connecting=0)
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"237"] connecting to 127.0.0.1:4321
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"237"] connection in progress
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"236"] new connection from 10.131.0.2:47552
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"236"] closing socket: 0
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.pool(25) cancelling pending stream
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"237"] closing data_to_write=0 type=1
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.connection(25) [Tags: "ConnectionId":"237"] closing socket: 1
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.pool(25) [Tags: "ConnectionId":"237"] client disconnected, failure reason: 
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.pool(25) invoking 1 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.pool(25) invoking 0 idle callback(s) - is_draining_for_deletion_=false
+2025-12-03T14:28:37.281Z+00:00 [debug] envoy.conn_handler(25) [Tags: "ConnectionId":"236"] adding to cleanup list

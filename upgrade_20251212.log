@@ -1,0 +1,128 @@
+history.go:56: 2025-12-04 00:04:27.120932 +0800 +08 m=+0.840507335 [debug] getting history for release consul
+upgrade.go:164: 2025-12-04 00:04:29.864674 +0800 +08 m=+3.584218293 [debug] preparing upgrade for consul
+upgrade.go:172: 2025-12-04 00:04:33.029392 +0800 +08 m=+6.748900835 [debug] performing update for consul
+upgrade.go:375: 2025-12-04 00:04:35.76681 +0800 +08 m=+9.486287585 [debug] creating upgraded release for consul
+client.go:486: 2025-12-04 00:04:40.310622 +0800 +08 m=+14.030047668 [debug] Starting delete for "consul-partition-init" ServiceAccount
+wait.go:104: 2025-12-04 00:04:40.562505 +0800 +08 m=+14.281928210 [debug] beginning wait for 1 resources to be deleted with timeout of 5m0s
+client.go:142: 2025-12-04 00:04:42.237047 +0800 +08 m=+15.956451210 [debug] creating 1 resource(s)
+client.go:486: 2025-12-04 00:04:42.506784 +0800 +08 m=+16.226185251 [debug] Starting delete for "consul-partition-init" Role
+wait.go:104: 2025-12-04 00:04:42.750485 +0800 +08 m=+16.469883835 [debug] beginning wait for 1 resources to be deleted with timeout of 5m0s
+client.go:142: 2025-12-04 00:04:44.408171 +0800 +08 m=+18.127550585 [debug] creating 1 resource(s)
+client.go:486: 2025-12-04 00:04:44.677556 +0800 +08 m=+18.396933126 [debug] Starting delete for "consul-partition-init" RoleBinding
+wait.go:104: 2025-12-04 00:04:44.925885 +0800 +08 m=+18.645258335 [debug] beginning wait for 1 resources to be deleted with timeout of 5m0s
+client.go:142: 2025-12-04 00:04:46.587449 +0800 +08 m=+20.306803918 [debug] creating 1 resource(s)
+client.go:393: 2025-12-04 00:04:46.834201 +0800 +08 m=+20.553553710 [debug] checking 86 resources for changes
+client.go:701: 2025-12-04 00:04:47.328045 +0800 +08 m=+21.047391251 [debug] Patch ResourceQuota "consul-cni" in namespace consul
+client.go:701: 2025-12-04 00:04:48.055628 +0800 +08 m=+21.774966585 [debug] Patch PodDisruptionBudget "consul-connect-injector" in namespace consul
+client.go:701: 2025-12-04 00:04:48.782603 +0800 +08 m=+22.501933543 [debug] Patch ServiceAccount "consul-auth-method" in namespace consul
+client.go:701: 2025-12-04 00:04:49.510166 +0800 +08 m=+23.229488001 [debug] Patch ServiceAccount "consul-cni" in namespace consul
+client.go:701: 2025-12-04 00:04:50.333391 +0800 +08 m=+24.052704126 [debug] Patch ServiceAccount "consul-connect-injector" in namespace consul
+client.go:701: 2025-12-04 00:04:51.064045 +0800 +08 m=+24.783349210 [debug] Patch ServiceAccount "consul-dns-proxy" in namespace consul
+client.go:701: 2025-12-04 00:04:51.789285 +0800 +08 m=+25.508581210 [debug] Patch ServiceAccount "consul-gateway-cleanup" in namespace consul
+client.go:701: 2025-12-04 00:04:52.516421 +0800 +08 m=+26.235708668 [debug] Patch ServiceAccount "consul-gateway-resources" in namespace consul
+client.go:701: 2025-12-04 00:04:53.302788 +0800 +08 m=+27.022067543 [debug] Patch ServiceAccount "consul-mesh-gateway" in namespace consul
+client.go:701: 2025-12-04 00:04:54.03004 +0800 +08 m=+27.749310751 [debug] Patch ServiceAccount "consul-server-acl-init-cleanup" in namespace consul
+client.go:701: 2025-12-04 00:04:54.757087 +0800 +08 m=+28.476350001 [debug] Patch ServiceAccount "consul-server-acl-init" in namespace consul
+client.go:701: 2025-12-04 00:04:55.481353 +0800 +08 m=+29.200607751 [debug] Patch ServiceAccount "consul-webhook-cert-manager" in namespace consul
+client.go:692: 2025-12-04 00:04:56.212661 +0800 +08 m=+29.931907043 [debug] Looks like there are no changes for Secret "consul-auth-method"
+client.go:692: 2025-12-04 00:04:56.955585 +0800 +08 m=+30.674822835 [debug] Looks like there are no changes for ConfigMap "consul-connect-inject-config"
+client.go:692: 2025-12-04 00:04:57.679501 +0800 +08 m=+31.398730251 [debug] Looks like there are no changes for ConfigMap "consul-gateway-resources-config"
+client.go:692: 2025-12-04 00:04:58.487579 +0800 +08 m=+32.206799501 [debug] Looks like there are no changes for ConfigMap "consul-partition"
+client.go:692: 2025-12-04 00:04:59.208401 +0800 +08 m=+32.927613335 [debug] Looks like there are no changes for ConfigMap "consul-webhook-cert-manager-config"
+client.go:692: 2025-12-04 00:04:59.945402 +0800 +08 m=+33.664605835 [debug] Looks like there are no changes for CustomResourceDefinition "controlplanerequestlimits.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:00.679262 +0800 +08 m=+34.398457918 [debug] Looks like there are no changes for CustomResourceDefinition "exportedservices.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:01.433898 +0800 +08 m=+35.153085001 [debug] Looks like there are no changes for CustomResourceDefinition "gatewayclassconfigs.consul.hashicorp.com"
+client.go:701: 2025-12-04 00:05:02.250224 +0800 +08 m=+35.969401918 [debug] Patch CustomResourceDefinition "gatewayclasses.gateway.networking.k8s.io" in namespace 
+client.go:692: 2025-12-04 00:05:02.99446 +0800 +08 m=+36.713629460 [debug] Looks like there are no changes for CustomResourceDefinition "gatewaypolicies.consul.hashicorp.com"
+client.go:701: 2025-12-04 00:05:03.747727 +0800 +08 m=+37.466887626 [debug] Patch CustomResourceDefinition "gateways.gateway.networking.k8s.io" in namespace 
+client.go:701: 2025-12-04 00:05:04.533127 +0800 +08 m=+38.252279001 [debug] Patch CustomResourceDefinition "grpcroutes.gateway.networking.k8s.io" in namespace 
+client.go:701: 2025-12-04 00:05:05.365934 +0800 +08 m=+39.085076793 [debug] Patch CustomResourceDefinition "httproutes.gateway.networking.k8s.io" in namespace 
+client.go:692: 2025-12-04 00:05:06.201498 +0800 +08 m=+39.920631543 [debug] Looks like there are no changes for CustomResourceDefinition "ingressgateways.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:06.94003 +0800 +08 m=+40.659154710 [debug] Looks like there are no changes for CustomResourceDefinition "jwtproviders.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:07.71342 +0800 +08 m=+41.432536085 [debug] Looks like there are no changes for CustomResourceDefinition "meshes.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:08.440242 +0800 +08 m=+42.159349960 [debug] Looks like there are no changes for CustomResourceDefinition "meshservices.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:09.169271 +0800 +08 m=+42.888370293 [debug] Looks like there are no changes for CustomResourceDefinition "peeringacceptors.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:09.9052 +0800 +08 m=+43.624291710 [debug] Looks like there are no changes for CustomResourceDefinition "peeringdialers.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:10.642339 +0800 +08 m=+44.361422126 [debug] Looks like there are no changes for CustomResourceDefinition "proxydefaults.consul.hashicorp.com"
+client.go:701: 2025-12-04 00:05:11.377138 +0800 +08 m=+45.096212210 [debug] Patch CustomResourceDefinition "referencegrants.gateway.networking.k8s.io" in namespace 
+client.go:692: 2025-12-04 00:05:12.11797 +0800 +08 m=+45.837036251 [debug] Looks like there are no changes for CustomResourceDefinition "registrations.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:12.871447 +0800 +08 m=+46.590504543 [debug] Looks like there are no changes for CustomResourceDefinition "routeauthfilters.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:13.686628 +0800 +08 m=+47.405676251 [debug] Looks like there are no changes for CustomResourceDefinition "routeretryfilters.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:14.420077 +0800 +08 m=+48.139116876 [debug] Looks like there are no changes for CustomResourceDefinition "routetimeoutfilters.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:15.149957 +0800 +08 m=+48.868988960 [debug] Looks like there are no changes for CustomResourceDefinition "samenessgroups.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:16.028063 +0800 +08 m=+49.747085210 [debug] Looks like there are no changes for CustomResourceDefinition "servicedefaults.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:16.763801 +0800 +08 m=+50.482815168 [debug] Looks like there are no changes for CustomResourceDefinition "serviceintentions.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:17.50198 +0800 +08 m=+51.220985168 [debug] Looks like there are no changes for CustomResourceDefinition "serviceresolvers.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:18.235408 +0800 +08 m=+51.954404501 [debug] Looks like there are no changes for CustomResourceDefinition "servicerouters.consul.hashicorp.com"
+client.go:692: 2025-12-04 00:05:18.974924 +0800 +08 m=+52.693912335 [debug] Looks like there are no changes for CustomResourceDefinition "servicesplitters.consul.hashicorp.com"
+client.go:701: 2025-12-04 00:05:19.860377 +0800 +08 m=+53.579355793 [debug] Patch CustomResourceDefinition "tcproutes.gateway.networking.k8s.io" in namespace 
+client.go:692: 2025-12-04 00:05:20.605411 +0800 +08 m=+54.324381460 [debug] Looks like there are no changes for CustomResourceDefinition "terminatinggateways.consul.hashicorp.com"
+client.go:701: 2025-12-04 00:05:21.437381 +0800 +08 m=+55.156342251 [debug] Patch CustomResourceDefinition "tlsroutes.gateway.networking.k8s.io" in namespace 
+client.go:692: 2025-12-04 00:05:22.189096 +0800 +08 m=+55.908048126 [debug] Looks like there are no changes for CustomResourceDefinition "trafficpermissions.auth.consul.hashicorp.com"
+client.go:701: 2025-12-04 00:05:22.928387 +0800 +08 m=+56.647331168 [debug] Patch CustomResourceDefinition "udproutes.gateway.networking.k8s.io" in namespace 
+client.go:692: 2025-12-04 00:05:23.747665 +0800 +08 m=+57.466599251 [debug] Looks like there are no changes for ClusterRole "consul-auth-method"
+client.go:692: 2025-12-04 00:05:24.497729 +0800 +08 m=+58.216655335 [debug] Looks like there are no changes for ClusterRole "consul-cni"
+client.go:692: 2025-12-04 00:05:25.255573 +0800 +08 m=+58.974490751 [debug] Looks like there are no changes for ClusterRole "consul-connect-injector"
+client.go:692: 2025-12-04 00:05:25.977697 +0800 +08 m=+59.696606293 [debug] Looks like there are no changes for ClusterRole "consul-dns-proxy"
+client.go:692: 2025-12-04 00:05:26.701854 +0800 +08 m=+60.420755335 [debug] Looks like there are no changes for ClusterRole "consul-gateway-cleanup"
+client.go:692: 2025-12-04 00:05:27.424354 +0800 +08 m=+61.143247085 [debug] Looks like there are no changes for ClusterRole "consul-gateway-resources"
+client.go:692: 2025-12-04 00:05:28.146886 +0800 +08 m=+61.865771210 [debug] Looks like there are no changes for ClusterRole "consul-mesh-gateway"
+client.go:692: 2025-12-04 00:05:28.874738 +0800 +08 m=+62.593614335 [debug] Looks like there are no changes for ClusterRole "consul-server"
+client.go:692: 2025-12-04 00:05:29.599473 +0800 +08 m=+63.318341085 [debug] Looks like there are no changes for ClusterRole "consul-webhook-cert-manager"
+client.go:692: 2025-12-04 00:05:30.324352 +0800 +08 m=+64.043212168 [debug] Looks like there are no changes for ClusterRoleBinding "consul-authdelegator"
+client.go:692: 2025-12-04 00:05:31.047289 +0800 +08 m=+64.766141168 [debug] Looks like there are no changes for ClusterRoleBinding "consul-auth-method"
+client.go:692: 2025-12-04 00:05:31.769098 +0800 +08 m=+65.487942210 [debug] Looks like there are no changes for ClusterRoleBinding "consul-cni"
+client.go:692: 2025-12-04 00:05:32.523319 +0800 +08 m=+66.242154001 [debug] Looks like there are no changes for ClusterRoleBinding "consul-connect-injector"
+client.go:692: 2025-12-04 00:05:33.245456 +0800 +08 m=+66.964283126 [debug] Looks like there are no changes for ClusterRoleBinding "consul-dns-proxy"
+client.go:692: 2025-12-04 00:05:33.973533 +0800 +08 m=+67.692351585 [debug] Looks like there are no changes for ClusterRoleBinding "consul-gateway-cleanup"
+client.go:692: 2025-12-04 00:05:34.697352 +0800 +08 m=+68.416162585 [debug] Looks like there are no changes for ClusterRoleBinding "consul-gateway-resources"
+client.go:692: 2025-12-04 00:05:35.487499 +0800 +08 m=+69.206300501 [debug] Looks like there are no changes for ClusterRoleBinding "consul-mesh-gateway"
+client.go:692: 2025-12-04 00:05:36.279197 +0800 +08 m=+69.997989626 [debug] Looks like there are no changes for ClusterRoleBinding "consul-server"
+client.go:692: 2025-12-04 00:05:37.003261 +0800 +08 m=+70.722045543 [debug] Looks like there are no changes for ClusterRoleBinding "consul-webhook-cert-manager"
+client.go:692: 2025-12-04 00:05:37.727253 +0800 +08 m=+71.446029543 [debug] Looks like there are no changes for Role "consul-connect-inject-leader-election"
+client.go:692: 2025-12-04 00:05:38.448801 +0800 +08 m=+72.167569210 [debug] Looks like there are no changes for Role "consul-server-acl-init-cleanup"
+client.go:692: 2025-12-04 00:05:39.17473 +0800 +08 m=+72.893490335 [debug] Looks like there are no changes for Role "consul-server-acl-init"
+client.go:692: 2025-12-04 00:05:39.898591 +0800 +08 m=+73.617342793 [debug] Looks like there are no changes for RoleBinding "consul-connect-inject-leader-election"
+client.go:692: 2025-12-04 00:05:40.781784 +0800 +08 m=+74.500525668 [debug] Looks like there are no changes for RoleBinding "consul-server-acl-init-cleanup"
+client.go:692: 2025-12-04 00:05:41.503655 +0800 +08 m=+75.222388710 [debug] Looks like there are no changes for RoleBinding "consul-server-acl-init"
+client.go:692: 2025-12-04 00:05:42.320673 +0800 +08 m=+76.039397960 [debug] Looks like there are no changes for Service "consul-connect-injector"
+client.go:701: 2025-12-04 00:05:43.042441 +0800 +08 m=+76.761157460 [debug] Patch Service "consul-dns-proxy" in namespace consul
+client.go:425: 2025-12-04 00:05:43.284122 +0800 +08 m=+77.002835793 [debug] error updating the resource "consul-dns-proxy":
+	 cannot patch "consul-dns-proxy" with kind Service: Service "consul-dns-proxy" is invalid: spec.ports[1].name: Duplicate value: "dns-tcp"
+client.go:692: 2025-12-04 00:05:43.766362 +0800 +08 m=+77.485070626 [debug] Looks like there are no changes for Service "consul-mesh-gateway"
+client.go:692: 2025-12-04 00:05:44.507191 +0800 +08 m=+78.225890460 [debug] Looks like there are no changes for DaemonSet "consul-cni"
+client.go:692: 2025-12-04 00:05:45.249102 +0800 +08 m=+78.967793793 [debug] Looks like there are no changes for Deployment "consul-connect-injector"
+client.go:414: 2025-12-04 00:05:45.979751 +0800 +08 m=+79.698433585 [debug] Created a new Deployment called "consul-dns-proxy" in consul
+
+client.go:692: 2025-12-04 00:05:46.480383 +0800 +08 m=+80.199060043 [debug] Looks like there are no changes for Deployment "consul-mesh-gateway"
+client.go:692: 2025-12-04 00:05:47.217329 +0800 +08 m=+80.935997793 [debug] Looks like there are no changes for Deployment "consul-webhook-cert-manager"
+client.go:414: 2025-12-04 00:05:47.960161 +0800 +08 m=+81.678821460 [debug] Created a new Job called "consul-server-acl-init" in consul
+
+client.go:701: 2025-12-04 00:05:48.458492 +0800 +08 m=+82.177146918 [debug] Patch MutatingWebhookConfiguration "consul-connect-injector" in namespace 
+client.go:701: 2025-12-04 00:05:49.22119 +0800 +08 m=+82.939836918 [debug] Patch NetworkAttachmentDefinition "consul-cni" in namespace consul
+client.go:701: 2025-12-04 00:05:49.953773 +0800 +08 m=+83.672411293 [debug] Patch SecurityContextConstraints "consul-cni" in namespace 
+client.go:701: 2025-12-04 00:05:50.696712 +0800 +08 m=+84.415342251 [debug] Patch ValidatingWebhookConfiguration "consul-connect-injector" in namespace 
+upgrade.go:487: 2025-12-04 00:05:51.833959 +0800 +08 m=+85.552575710 [debug] warning: Upgrade "consul" failed: cannot patch "consul-dns-proxy" with kind Service: Service "consul-dns-proxy" is invalid: spec.ports[1].name: Duplicate value: "dns-tcp"
+Error: UPGRADE FAILED: cannot patch "consul-dns-proxy" with kind Service: Service "consul-dns-proxy" is invalid: spec.ports[1].name: Duplicate value: "dns-tcp"
+helm.go:86: 2025-12-04 00:05:52.729173 +0800 +08 m=+86.447779501 [debug] cannot patch "consul-dns-proxy" with kind Service: Service "consul-dns-proxy" is invalid: spec.ports[1].name: Duplicate value: "dns-tcp"
+helm.sh/helm/v3/pkg/kube.(*Client).Update
+	helm.sh/helm/v3/pkg/kube/client.go:438
+helm.sh/helm/v3/pkg/action.(*Upgrade).releasingUpgrade
+	helm.sh/helm/v3/pkg/action/upgrade.go:429
+runtime.goexit
+	runtime/asm_arm64.s:1223
+UPGRADE FAILED
+main.newUpgradeCmd.func2
+	helm.sh/helm/v3/cmd/helm/upgrade.go:244
+github.com/spf13/cobra.(*Command).execute
+	github.com/spf13/cobra@v1.8.1/command.go:985
+github.com/spf13/cobra.(*Command).ExecuteC
+	github.com/spf13/cobra@v1.8.1/command.go:1117
+github.com/spf13/cobra.(*Command).Execute
+	github.com/spf13/cobra@v1.8.1/command.go:1041
+main.main
+	helm.sh/helm/v3/cmd/helm/helm.go:85
+runtime.main
+	runtime/proc.go:283
+runtime.goexit
+	runtime/asm_arm64.s:1223

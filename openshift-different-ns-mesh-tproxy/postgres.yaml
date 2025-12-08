@@ -48,6 +48,7 @@ spec:
       annotations:
         consul.hashicorp.com/connect-inject: "true"
         consul.hashicorp.com/transparent-proxy: "true"
+        k8s.v1.cni.cncf.io/networks: '[{"name":"consul-cni"}]'
     spec:
       serviceAccountName: demo-db
       containers:
