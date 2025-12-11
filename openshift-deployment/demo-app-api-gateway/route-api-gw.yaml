@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: route-consul-api-gw
+  namespace: consul 
+spec:
+  host: demo-app.apps.ocp-test.n44b.p1.openshiftapps.com
+  port:
+    targetPort: 8080 
+  to:
+    kind: Service
+    name: api-gw-demo-app

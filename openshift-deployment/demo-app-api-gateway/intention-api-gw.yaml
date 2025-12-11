@@ -1,0 +1,14 @@
+---
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceIntentions
+metadata:
+  name: demo-app
+  namespace: mesh-be-tproxy
+spec:
+  destination:
+    name: demo-app
+    namespace: mesh-be-tproxy
+  sources:
+    - name: api-gw-demo-app
+      namespace: consul
+      action: allow

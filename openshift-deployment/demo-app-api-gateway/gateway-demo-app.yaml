@@ -1,0 +1,14 @@
+apiVersion: gateway.networking.k8s.io/v1beta1
+kind: Gateway
+metadata:
+ name: api-gw-demo-app
+ namespace: consul
+spec:
+ gatewayClassName: consul
+ listeners:
+ - protocol: HTTP
+   port: 8080
+   name: http
+   allowedRoutes:
+     namespaces: 
+       from: All
