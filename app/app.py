@@ -5,6 +5,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
+APP_VERSION = os.environ.get('APP_VERSION', 'v1')
+
 # Database connection parameters from environment variables (set in docker-compose.yaml)
 DB_HOST = os.environ.get("POSTGRES_HOST")
 DB_NAME = os.environ.get("POSTGRES_DB")
@@ -93,8 +95,8 @@ def index():
 </head>
 <body class="bg-gray-50 flex items-center justify-center min-h-screen">
     <div class="w-full max-w-2xl bg-white p-8 rounded-xl shadow-2xl space-y-6">
-        <h1 class="text-3xl font-bold text-gray-800 border-b pb-4">Web App Microservice Status</h1>
-        <p class="text-gray-600">This app is served via Nginx and fetches data from the Postgres service.</p>
+        <h1 class="text-3xl font-bold text-gray-800 border-b pb-4">Web App Microservice Status ({APP_VERSION})</h1>
+        <p class="text-gray-600">This app is served via Nginx and fetches data from the Postgres service {DB_HOST}</p>
         
         {response_html}
 

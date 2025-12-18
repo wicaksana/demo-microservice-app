@@ -21,6 +21,7 @@ services:
       dockerfile: Dockerfile.app
     restart: always
     environment:
+      APP_VERSION: v3
       # Pass database connection details to the Flask app
       POSTGRES_HOST: postgres # Use the service name as the hostname
       POSTGRES_DB: app_db
