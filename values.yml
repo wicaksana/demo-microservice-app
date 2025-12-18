@@ -72,14 +72,14 @@ global:
 externalServers:
   enabled: true
   hosts:
-    - "34.10.36.135"
-    - "34.68.8.110"
-    - "34.61.227.179"
+    - "34.68.121.231"
+    - "104.154.154.64"
+    - "34.9.15.214"
   httpsPort: 8501
   grpcPort: 8502
   tlsServerName: server.gcp-dc1.consul
   # Get this from: oc whoami --show-server
-  k8sAuthMethodHost: https://api.ocp-test.n44b.p1.openshiftapps.com:6443
+  k8sAuthMethodHost: https://api.ocp-test.ssv6.p1.openshiftapps.com:6443
   # Skip server watch to prevent switching to internal IPs
   skipServerWatch: true
 

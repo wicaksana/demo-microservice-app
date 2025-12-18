@@ -1,0 +1,72 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-db
+  namespace: mesh-db-tproxy
+  labels:
+    app: demo-db
+spec:
+  type: ClusterIP
+  ports:
+    - port: 5432
+      targetPort: 5432
+  selector:
+    app: demo-db
+---
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceDefaults
+metadata:
+  name: demo-db
+  namespace: mesh-db-tproxy
+spec:
+  protocol: "tcp"
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: demo-db
+  namespace: mesh-db-tproxy
+automountServiceAccountToken: true
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-db
+  namespace: mesh-db-tproxy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: demo-db
+      app: demo-db
+  template:
+    metadata:
+      labels:
+        service: demo-db
+        app: demo-db
+      annotations:
+        consul.hashicorp.com/connect-inject: "true"
+        consul.hashicorp.com/transparent-proxy: "true"
+        k8s.v1.cni.cncf.io/networks: '[{"name":"consul-cni"}]'
+    spec:
+      serviceAccountName: demo-db
+      containers:
+        - name: demo-db
+          image: muarwi/demo-microservice-db:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_DB
+              value: app_db
+            - name: POSTGRES_USER
+              value: user
+            - name: POSTGRES_PASSWORD
+              value: password
+          volumeMounts:
+            - mountPath: "/var/lib/postgresql"
+              name: "pgdata"
+      volumes:
+        - name: pgdata
+          emptyDir: {}

@@ -216,3 +216,6 @@ __marimo__/
 
 ######
 postgres_data/
+
+*.pem
+16740869-soko01-pull-secret.yaml

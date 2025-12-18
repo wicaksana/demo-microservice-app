@@ -1,0 +1,15 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+
+[req_distinguished_name]
+countryName = UK
+stateOrProvinceName = LD
+commonName = demo-app.wicaksana.uk
+
+[v3_req]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = demo-app.wicaksana.uk
+DNS.2 = www.demo-app.wicaksana.uk
